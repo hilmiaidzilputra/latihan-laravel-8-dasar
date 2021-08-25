@@ -10,7 +10,7 @@
                 <h1 class="h3 mb-3 fw-normal text-center">Silahkan Registrasi</h1>
 
                 <div class="form-floating">
-                    <input type="text" name="name" class="form-control rounded @error('name')is-invalid @enderror" id="name" placeholder="Name" required value="{{ old('name')}} ">
+                    <input type="text" name="name" class="form-control rounded @error('name')is-invalid @enderror" id="name" placeholder="Name" autofocus required value="{{ old('name')}} ">
                     <label for="name">Name</label>
                     @error('name')
                     <div id="validationServerUsernameFeedback" class="invalid-feedback">

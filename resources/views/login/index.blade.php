@@ -24,7 +24,7 @@
                 <h1 class="h3 mb-3 fw-normal text-center">Please Login</h1>
                 <div class="form-floating">
                     <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email" placeholder="name@example.com" value="{{ old('email') }}" required autofocus>
-                    <label for="email">Username</label>
+                    <label for="email">Email Address</label>
                     @error('email')
                     <div class="invalid-feedback">
                         {{ $message }}
